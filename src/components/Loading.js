@@ -1,7 +1,7 @@
 import { Loader } from 'styles/components/loaderStyle'
 
-export default function Loading({ loading }) {
-  if (loading) return null
+export default function Loading({ isLoading }) {
+  if (!isLoading) return null
 
   return (
     <Loader>

@@ -46,6 +46,7 @@ export const Card = styled.div`
     position: relative;
     flex: 1;
     padding: 10px;
+    text-align: start;
 
     .title {
       font-size: 16px;

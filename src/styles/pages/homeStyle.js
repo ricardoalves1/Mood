@@ -18,7 +18,8 @@ export const Header = styled.div`
 export const Box = styled.div`
   position: relative;
   width: 100%;
-  height: 60vh;
+  height: 100%;
+  min-height: 60vh;
   display: grid;
   margin-top: 100px;
   font-size: 2.125rem;
@@ -57,6 +58,8 @@ export const Box = styled.div`
   }
 
   @media screen and (max-width: 600px) {
+    margin-top: 40px;
+
     > div {
       margin: 16px 0px;
     }
@@ -66,6 +69,7 @@ export const Box = styled.div`
       position: absolute;
       width: 100%;
       top: 50%;
+      margin: 16px 0px;
       border-bottom: 3px solid ${props => props.theme.colors.textWhite};
       box-sizing: border-box;
     }

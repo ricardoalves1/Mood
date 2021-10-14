@@ -2,11 +2,14 @@ const theme = {
   colors: {
     background: '#f2f2f2',
     text: '#020202',
-    primary: '#ed2f59',
-    secondary: '#32335b',
+    textWhite: '#f2f2f2',
+    primary: '#fb7085',
+    secondary: '#6f537b',
+    tertiary: '#2f2355',
     success: '#4caf50',
     error: '#ff5252',
-    warning: '#ffc107'
+    warning: '#ffc107',
+    grey: '#757575'
   }
 }
 

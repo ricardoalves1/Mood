@@ -32,8 +32,10 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
-          <meta charset="utf-8" />
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"></link>
+          <meta charSet="utf-8" />
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
         <body>
           <Main />

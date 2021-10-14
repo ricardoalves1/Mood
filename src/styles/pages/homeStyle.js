@@ -2,18 +2,15 @@ import styled from 'styled-components'
 
 export const Header = styled.div`
   > .title {
-    color: ${props => props.theme.colors.textWhite};
     font: 300 6rem Changa one, sans-serif;
     margin: -20px 0px 24px 0px;
   }
 
   > .title-2 {
-    color: ${props => props.theme.colors.textWhite};
     font: 300 3.75rem Changa one, sans-serif;
   }
 
   > .subtitle {
-    color: ${props => props.theme.colors.textWhite};
     font-size: 1.2rem;
   }
 `
@@ -39,7 +36,6 @@ export const Box = styled.div`
     align-content: center;
     justify-content: center;
     text-align: center;
-    color: ${props => props.theme.colors.textWhite};
     border-radius: 10px;
     margin: 0px 16px;
     cursor: pointer;

@@ -13,7 +13,6 @@ export const Loader = styled.div`
   text-align: center;
 
   background: rgba(0, 0, 0, 0.5);
-  color: ${props => props.theme.colors.textWhite};
   font: 300 3.75rem Changa one, sans-serif;
   z-index: 999;
 

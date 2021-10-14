@@ -34,6 +34,7 @@ export const Card = styled.div`
     height: 70%;
     overflow: hidden;
     border-radius: inherit;
+    background-color: ${props => props.theme.colors.secondary};
 
     img {
       width: 100%;
@@ -49,7 +50,7 @@ export const Card = styled.div`
     .title {
       font-size: 16px;
       font-weight: 500;
-      color: ${props => props.theme.colors.text};
+      color: ${props => props.theme.colors.textBlack};
     }
 
     .subtitle {
@@ -63,7 +64,7 @@ export const Card = styled.div`
       top: 8px;
       left: 100%;
       margin-left: -26px;
-      color: ${props => props.theme.colors.text};
+      color: ${props => props.theme.colors.textBlack};
 
       &:hover {
         opacity: 0.85;

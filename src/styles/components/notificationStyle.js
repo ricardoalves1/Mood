@@ -14,7 +14,6 @@ export const Notification = styled.div`
   text-align: center;
   background-color: ${props =>
     props.error ? props.theme.colors.error : props.theme.colors.success};
-  color: ${props => props.theme.colors.textWhite};
   border-radius: 10px;
   transform-origin: right;
   animation: notify 3s ease-in-out backwards;

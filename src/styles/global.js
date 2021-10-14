@@ -14,7 +14,7 @@ export default createGlobalStyle`
     );
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: ${props => props.theme.colors.text};
+    color: ${props => props.theme.colors.textWhite};
     font: 400 16px Roboto, sans-serif;
   }
 

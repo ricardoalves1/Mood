@@ -5,7 +5,6 @@ export const Playlist = styled.div`
 
   > .info {
     padding: 0px 8px;
-    color: ${props => props.theme.colors.textWhite};
     font-size: 1.175rem;
 
     display: grid;

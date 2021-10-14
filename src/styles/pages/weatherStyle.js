@@ -2,13 +2,11 @@ import styled from 'styled-components'
 
 export const Header = styled.div`
   > .title {
-    color: ${props => props.theme.colors.textWhite};
     font: 300 6rem Changa one, sans-serif;
     cursor: pointer;
   }
 
   > .label {
-    color: ${props => props.theme.colors.textWhite};
     font-size: 2rem;
     margin-top: 64px;
     margin-bottom: 24px;
@@ -37,7 +35,6 @@ export const Header = styled.div`
     top: 5%;
     right: 100px;
 
-    color: ${props => props.theme.colors.textWhite};
     font-size: 1.75rem;
     text-align: center;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
@@ -89,7 +86,6 @@ export const ListInfo = styled.div`
   gap: 24px;
 
   > .info {
-    color: ${props => props.theme.colors.textWhite};
     font-size: 2rem;
   }
 

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   * {
@@ -8,7 +8,12 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${props => props.theme.colors.background};
+    background: linear-gradient(180deg,
+      ${props => props.theme.colors.primary} 0%,
+      ${props => props.theme.colors.tertiary} 84.5%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: ${props => props.theme.colors.text};
     font: 400 16px Roboto, sans-serif;
   }
@@ -17,4 +22,4 @@ export default createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
-`;
+`
